@@ -1,0 +1,48 @@
+/* Century Schoolbook font is very similar to Computer Modern Math: cmmi */
+.MATH    { font-family: "Century Schoolbook", serif; }
+.MATH I  { font-family: "Century Schoolbook", serif; font-style: italic }
+.BOLDMATH { font-family: "Century Schoolbook", serif; font-weight: bold }
+
+/* implement both fixed-size and relative sizes */
+SMALL.XTINY		{ font-size : xx-small;color: #a30000 }
+SMALL.TINY		{ font-size : x-small;color: #a30000  }
+SMALL.SCRIPTSIZE	{ font-size : smaller;color: #a30000  }
+SMALL.FOOTNOTESIZE	{ font-size : small;color: #a30000    }
+SMALL.SMALL		{  }
+BIG.LARGE		{  }
+BIG.XLARGE		{ font-size : large;color: #a30000    }
+BIG.XXLARGE		{ font-size : x-large;color: #a30000  }
+BIG.HUGE		{ font-size : larger;color: #a30000   }
+BIG.XHUGE		{ font-size : xx-large;color: #a30000 }
+
+/* heading styles */
+H1		{ color: rgb(163,0,0)}
+H2		{ color: rgb(163,0,0) }
+H3		{ color: rgb(163,0,0) }
+H4		{ color: rgb(163,0,0) }
+H5		{ color: rgb(163,0,0)}
+
+/* mathematics styles */
+DIV.displaymath		{ }	/* math displays */
+TD.eqno			{ }	/* equation-number cells */
+
+
+ 
+a:link {color: black;}      /* unvisited link */
+a:visited {color: black;}   /* visited link */
+a:hover {color: black;}     /* mouse over link */
+a:active {color: black;}    /* selected link */
+       
+.conference {color: #0b5394; font-weight: bold }
+
+
+
+div.content { 
+	width: 80%; 
+	margin: 0 auto;
+  padding: 0 5px;
+  font-family: Arial,Verdana,sans-serif;
+  line-height: 1.6;	
+	}
+
+/* document-specific styles come next */
